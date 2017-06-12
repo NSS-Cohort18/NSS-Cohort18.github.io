@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "Blaise Roberts",
-		"webiste": "https://blaiseroberts.github.io/PersonalSite/",
+		"website": "http://blaiseroberts.github.io/PersonalSite/",
 		"github": "https://github.com/BlaiseRoberts",
 		"linkedin": "https://www.linkedin.com/in/blaise-roberts-504121140/'",
 		"image": "../app/img/headshots/finalindividual/blaiseProf.jpg"
@@ -169,7 +169,7 @@
 	},
 	{
 		"name": "Zachary Spence",
-		"website": "...",
+		"website": ". . . ",
 		"github": "https://github.com/zakspence",
 		"linkedin": "https://www.linkedin.com/in/zachary-spence-7a70b8a2/",
 		"image": "../app/img/headshots/finalindividual/zachProf.jpg"
