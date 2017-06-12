@@ -239,12 +239,19 @@ padding-top: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:75%;
-  width: 75%;
-
+  height:100%;
+  /*min-height: 200px;*/
+  width: 80%;
 } 
 
-.img-logo2 {
+.tech-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.img-logo2 {
   display: block;
   width: 30%;
   height: auto;
@@ -252,7 +259,7 @@ padding-top: 10%;
   margin-right: auto;
   
 
-} 
+}*/ 
 
 .card-style {
   text-align: center;
@@ -269,6 +276,10 @@ font-family: 'Lato', sans-serif;
   display: inline;
 }
 
+.svg-size{
+  height: 75%;
+  width: auto;
+}
 
 
 /*# sourceMappingURL=main.css.map */
