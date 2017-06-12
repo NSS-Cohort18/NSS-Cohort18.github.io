@@ -239,28 +239,22 @@ padding-top: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-height: 165px;
-  min-width: 240px;
-  margin-bottom: 60%;
+  height: 105px;
+  width: 210px;
+  min-height: 105px;
+  min-width: 185px;
+  margin-bottom: 35%;
   width: 80%;
 } 
 
 .tech-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-/*.img-logo2 {
-  display: block;
-  width: 30%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  
 
-}*/ 
 
 .card-style {
   text-align: center;
@@ -278,7 +272,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .svg-size{
-  height: 75%;
+  height: 25%;
   width: auto;
 }
 
