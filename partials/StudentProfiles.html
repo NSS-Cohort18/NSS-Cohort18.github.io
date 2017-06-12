@@ -25,7 +25,7 @@
 					
 					 <strong><h4 class="card-title" style="font-size: 1.28571429em; font-weight: 700; line-height: 1.2857em;">{{student.name}}</h4></strong>
 					 <div class="card-text" style="clear: both; margin-top: .5em; background-color: color: rgba(0, 0, 0, .68);">
-						 {{student.website}}
+						 <a href="{{student.website}}">{{student.website}}</a>
 					 </div>
 				</div>
 
@@ -33,8 +33,8 @@
 				<div class="card-footer" style=" font-size: 1em; position: static; top: 0; left: 0; max-width: 100%; padding: .75em 1em; color: rgba(0, 0, 0, .4); border-top: 1px solid rgba(0, 0, 0, .05) !important; background: #fff;">
 					<div class="row">				    
 					    <div class="col-xs-12 text-center">
-					        <img src="../img/github2.svg"/>                
-					        <img  src="../img/linkedin.svg"/>        
+					        <a href="{{student.github}}"><img src="../img/github2.svg"/> </a>               
+					       <a href="{{student.linkedin}}"> <img  src="../img/linkedin.svg"/> </a>       
 					    </div>
 					</div>
 				</div>
