@@ -1,44 +1,49 @@
-
-
 <div class="row" ng-controller="StudentProfilesCtrl">
-	<!-- HEADER -->
-	<div class="row" style="width: 100% !important;">
-		<div class="containers techheader">
-			<p class="techheader">Meet the Devs</p>
-		</div>
-	</div>
-	<div class="row">		
+    <!-- HEADER -->
+    <div class="row" style="width: 100% !important;">
+        <div class="techheader">
+            <p class="techheader">Meet the Devs</p>
+        </div>
+    </div>
+    <div class="row">
 
-		<!-- STUDENT THUMBNAIL -->
-		<div class="col-sm-4 col-md-3 mt-4" style="margin-top: 2em; margin-bottom: 2em;"
-				 ng-repeat="student in studentList"
-				 ng-mouseenter="currentProfileMouseover = $index"
-				 ng-mouseleave="currentProfileMouseover = null">			
-			<div class="card card-inverse card-info" style="border: 1px solid rgba(0, 0, 0, .05); font-size: 1em; overflow: hidden; padding: 0; border: none; border-radius: .28571429rem;">
-				
-				<!-- IMAGE -->
+        <!-- STUDENT THUMBNAIL -->
+        <div class="col-xs-12 col-md-3" style="margin-top: 2em; margin-bottom: 2em;"
+             ng-repeat="student in studentList"
+             ng-mouseenter="currentProfileMouseover = $index"
+             ng-mouseleave="currentProfileMouseover = null">
+            <div class="card card-inverse card-info"
+                 style="border: 1px solid rgba(0, 0, 0, .05); font-size: 1em; overflow: hidden; padding: 0; border: none; border-radius: .28571429rem;">
 
-				<img  class="card-img-top img-responsive" src="{{student.image}}" style="display: block; width: 100%; height: auto;"/>
+                <!-- IMAGE -->
 
-				<!-- NAME AND WEBSITE -->
-		    		<div class="card-block card-style" style="font-size: 1em; position: relative; margin: 0; padding: 1em; border: none; border-top: 1px solid rgba(34, 36, 38, .1); background-color: #D2D8B3; box-shadow: none;">
-					
-					 <strong><h4 class="card-title" style="font-size: 1.28571429em; font-weight: 700; line-height: 1.2857em;">{{student.name}}</h4></strong>
-					 <div class="card-text" style="clear: both; margin-top: .5em; background-color: color: rgba(0, 0, 0, .68);">
-						 <a href="{{student.website}}">{{student.website}}</a>
-					 </div>
-				</div>
+                <img class="card-img-top img-responsive" src="{{student.image}}"
+                     style="display: block; width: 100%; height: auto;"/>
 
-				<!-- FOOTER -->
-				<div class="card-footer" style=" font-size: 1em; position: static; top: 0; left: 0; max-width: 100%; padding: .75em 1em; color: rgba(0, 0, 0, .4); border-top: 1px solid rgba(0, 0, 0, .05) !important; background: #fff;">
-					<div class="row">				    
-					    <div class="col-xs-12 text-center">
-					        <a href="{{student.github}}"><img src="../img/github2.svg"/> </a>               
-					       <a href="{{student.linkedin}}"> <img  src="../img/linkedin.svg"/> </a>       
-					    </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                <!-- NAME AND WEBSITE -->
+                <div class="card-block card-style"
+                     style="font-size: 1em; position: relative; margin: 0; padding: 1em; border: none; border-top: 1px solid rgba(34, 36, 38, .1); background-color: #D2D8B3; box-shadow: none;">
+
+                    <strong><h4 class="card-title"
+                                style="font-size: 1.28571429em; font-weight: 700; line-height: 1.2857em;">
+                        {{student.name}}</h4></strong>
+                    <div class="card-text"
+                         style="clear: both; margin-top: .5em; background-color: color: rgba(0, 0, 0, .68);">
+                        <a href="{{student.website}}">{{student.website}}</a>
+                    </div>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="card-footer"
+                     style=" font-size: 1em; position: static; top: 0; left: 0; max-width: 100%; padding: .75em 1em; color: rgba(0, 0, 0, .4); border-top: 1px solid rgba(0, 0, 0, .05) !important; background: #fff;">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <a href="{{student.github}}"><img src="../img/github2.svg"/> </a>
+                            <a href="{{student.linkedin}}"> <img src="../img/linkedin.svg"/> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
