@@ -64,14 +64,14 @@
 	},
 	{
 		"name": "Harry Epstein",
-		"website": "harryepstein.me",
-		"github": "github.com/harryepstein",
+		"website": "http://www.harryepstein.me",
+		"github": "https://github.com/harryepstein",
 		"linkedin": "https://www.linkedin.com/in/harry-epstein-a84b7746",
 		"image": "../app/img/headshots/finalindividual/harryProf.jpg"
 	},
 	{
 		"name": "Helana Nosrat",
-		"website": "helanan.com",
+		"website": "http://www.helanan.com",
 		"github": "https://github.com/helanan",
 		"linkedin": "https://www.linkedin.com/in/helananosrat/",
 		"image": "../app/img/headshots/finalindividual/helanaProf.jpg"
@@ -127,14 +127,14 @@
 	},
 	{
 		"name": "Miriam Rozenbaum",
-		"website": ". . . ",
+		"website": "https://mrozenbaum.github.io/",
 		"github": "https://github.com/mrozenbaum",
 		"linkedin": "https://www.linkedin.com/in/miriam-rozenbaum-250253103/",
 		"image": "../app/img/headshots/finalindividual/miriamProf.jpg"
 	},
 	{
 		"name": "Nick Nash",
-		"website": "nicknashdev.com",
+		"website": "http://www.nicknashdev.com",
 		"github": "https://github.com/thenicknash",
 		"linkedin": "https://www.linkedin.com/in/nicholas-nash-18a445a0/",
 		"image": "../app/img/headshots/finalindividual/nickProf.jpg"
